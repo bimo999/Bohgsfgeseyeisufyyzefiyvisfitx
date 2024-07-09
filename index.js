@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello Express app!')
+  res.send('Project is runing!')
 })
 
 app.listen(3000, () => {
@@ -69,7 +69,7 @@ else if (args.endsWith("B")) args = args.replace(/B/gi, "") * 1000000000;
       if (args2 < 1) return message.reply(`
 > ** Error It Must Be Larger Than 1 ⚠⚠ **`);
         let m = await message.reply({ content: `
-> ** Your Tax Is : __${tax}__**`✔ });
+> ** Your Tax Is : __${tax}__**✔` });
 })
 
                             client.login(process.env.token);
