@@ -72,4 +72,4 @@ else if (args.endsWith("B")) args = args.replace(/B/gi, "") * 1000000000;
 > ** Your Tax Is : __${tax}__**✔` });
 })
 
-                            client.login('MTI1MDIzMTE3MDUxMjE5MTQ5OQ.GxWUBo._cmvCFBhjdSQd-N-tkRqTiy4ZUmutWhupLbypw');
+                            client.login(process.env.token);
